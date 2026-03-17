@@ -161,15 +161,15 @@ function App() {
 
           <div className="cta-buttons">
 
-            <motion.a
-             href={`${import.meta.env.BASE_URL}Ritik_Dhawan_Resume.pdf`
-              download
-              className="btn resume-btn"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Download Resume
-            </motion.a>
+          <motion.a
+            href={`${import.meta.env.BASE_URL}Ritik_Dhawan_Resume.pdf`}
+            download
+            className="btn resume-btn"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Download Resume
+          </motion.a>
 
             <motion.a
               href="#contact"
