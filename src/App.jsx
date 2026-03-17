@@ -162,7 +162,7 @@ function App() {
           <div className="cta-buttons">
 
             <motion.a
-              href="/Ritik_Dhawan_Resume.pdf"
+             href={`${import.meta.env.BASE_URL}Ritik_Dhawan_Resume.htm`
               download
               className="btn resume-btn"
               whileHover={{ scale: 1.05 }}
